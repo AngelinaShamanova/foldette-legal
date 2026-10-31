@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f5f6f8">
   <title>Foldette Legal</title>
   <style>
-    :root{color-scheme:light dark;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f6f8;color:#20242b}*{box-sizing:border-box}body{margin:0}main{max-width:760px;margin:32px auto;padding:40px 44px;background:#fff;border:1px solid #e3e6eb;border-radius:20px}h1{font-size:34px;line-height:1.2;margin:0 0 14px}p{font-size:16px;line-height:1.7;color:#626b78}ul{list-style:none;padding:0;margin:28px 0;display:grid;gap:14px}li a{display:block;padding:18px 20px;border:1px solid #e3e6eb;border-radius:14px;color:#265ea8;text-decoration:none;font-size:17px;font-weight:600}li a:hover{background:#f5f8fd}a:focus-visible{outline:3px solid #759fd5;outline-offset:4px}.contact{font-size:14px}a{color:#265ea8;text-underline-offset:3px;overflow-wrap:anywhere}@media(max-width:600px){main{margin:0;padding:30px 22px;border:0;border-radius:0}h1{font-size:30px}}@media(prefers-color-scheme:dark){:root{background:#14171c;color:#ebedf1}main{background:#1d2128;border-color:#353b46}p{color:#b5bdc9}li a{border-color:#353b46;color:#9fc5ff}li a:hover{background:#252c37}a{color:#9fc5ff}}
+    :root{color-scheme:light dark;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f5f6f8;color:#20242b}*{box-sizing:border-box}body{margin:0}main{max-width:760px;margin:32px auto;padding:40px 44px;background:#fff;border:1px solid #e3e6eb;border-radius:20px}h1{font-size:34px;line-height:1.2;margin:0 0 14px}h2{font-size:22px;line-height:1.3;margin:0 0 14px}p{font-size:16px;line-height:1.7;color:#626b78}ul{list-style:none;padding:0;margin:28px 0;display:grid;gap:14px}li a{display:block;padding:18px 20px;border:1px solid #e3e6eb;border-radius:14px;color:#265ea8;text-decoration:none;font-size:17px;font-weight:600}li a:hover{background:#f5f8fd}a:focus-visible{outline:3px solid #759fd5;outline-offset:4px}.contact{font-size:14px}#support{margin-top:36px;padding-top:24px;border-top:1px solid #e3e6eb}a{color:#265ea8;text-underline-offset:3px;overflow-wrap:anywhere}@media(max-width:600px){main{margin:0;padding:30px 22px;border:0;border-radius:0}h1{font-size:30px}}@media(prefers-color-scheme:dark){:root{background:#14171c;color:#ebedf1}main{background:#1d2128;border-color:#353b46}p{color:#b5bdc9}li a{border-color:#353b46;color:#9fc5ff}li a:hover{background:#252c37}#support{border-color:#353b46}a{color:#9fc5ff}}
   </style>
 </head>
 <body>
@@ -16,9 +16,14 @@
     <ul>
       <li><a href="privacy.html">Privacy Policy</a></li>
       <li><a href="terms.html">Terms of Use (Apple Standard EULA)</a></li>
-      <li><a href="support.html">Support</a></li>
+      <li><a href="#support">Support</a></li>
     </ul>
-    <p class="contact">Questions? <a href="support.html">Contact support</a>.</p>
+    <section id="support" aria-labelledby="support-title">
+      <h2 id="support-title">Support</h2>
+      <p>Have a question, found a bug, or want to suggest a feature? We’re here to help.</p>
+      <p>Contact us at: <strong><a href="mailto:angelinashamanova@gmail.com">angelinashamanova@gmail.com</a></strong></p>
+      <p>For technical issues, please include your device model, iOS version, and a short description of the problem.</p>
+    </section>
   </main>
 </body>
 </html>
